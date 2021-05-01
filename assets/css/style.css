@@ -1,0 +1,125 @@
+body{
+    height: 100vh; 
+}
+.navbar{
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.title-site{
+    color:#008000;
+    text-decoration: none;
+}
+.navbar-link{
+    color:#008000;
+    text-decoration: none;
+    font-size: large;
+}
+.menu:hover{
+    font-weight:600;
+}
+.ul-menu{
+    display: flex;
+    list-style: none;
+}
+.menu{
+    margin: 0 0 0 2rem;
+}
+header{
+    height: 100vh;
+}
+.img-header{
+    background-image: url(../img/1194x780.png);
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+.section-main{
+    height: 100vh;
+    background-color: darkseagreen;
+    display: flex;
+    flex-direction: column;
+}
+.box-texts-pag1{
+    width: 70%;
+    height: 90%;
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    position:absolute;
+    left: 15%;
+}
+.text-pag1{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+}
+.paragraph_pag1{
+    text-align:left;
+    margin-bottom: 0.5rem;
+}
+.title-h2-pag1-2{
+    text-align: left;
+}
+.title-h2-pag1-2{
+    text-align: left;
+    margin-top: 1rem;
+}
+.section-box-mare{
+    display:flex;
+    flex-direction: column;
+}
+.box-mare{
+    width: 60rem;
+    height: 30rem;
+    background-color:rgba(225,225,225,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top: 80rem;
+    left:10rem;
+}
+.box-text-mare{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+}
+.title-h2-mare,
+.paragraph-pag1-mare{
+    margin-bottom: 1rem;
+}
+.section-box-mare{
+    background-image: url(../img/01.jpg);
+    height:100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+}
+.section-text-parceiros{
+    height: 100vh;
+    background-color:aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-parceiros{
+    
+}
+.section-box-parceiros{
+    background-image: url(../img/09.jpg);
+    height:100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+}
